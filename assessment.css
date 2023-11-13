@@ -5,7 +5,7 @@ h2, h3, h4, h5 {
 
 th {
 	font-weight: bold;
-	color: #CF595B;
+	color: #2F343C;
 
 }
 
@@ -55,12 +55,15 @@ blockquote {
 	list-style-type: none;
 }
 
+#teamRoster>li>ul>li>ol>li {
+	font-weight: bold;
 
-<!-- 
+}
 
-    Have each team's primary quarterback display in bold.
+table tr:last-child {
+	background-color: #EBE280;
+}
+table tr:first-child {
+	background-color: #469DA0;
+}
 
-    Use CSS to give the table rows alternating background colors.
-
-    Solid background images can make foreground text hard to read; find a way to have each team's image display behind its roster, but reduced intensity. Do not edit the image itself.
--->
