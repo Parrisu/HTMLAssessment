@@ -1,0 +1,66 @@
+h2, h3, h4, h5 {
+	color: #CF595B;
+	font-family: sans-serif;
+}
+
+th {
+	font-weight: bold;
+	color: #CF595B;
+
+}
+
+table {
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+table td, table th {
+	border: .5px solid black;
+}
+
+ul {
+	list-style-type: square;
+}
+
+a:hover {
+	background-color: #85BE4D;
+	text-decoration: none;
+}
+
+blockquote {
+	background-color: #2F343C;
+	color: #EBE280;
+}
+
+#teamRoster>li:first-child {
+	background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+	background-size: 15rem;
+	background-repeat: no-repeat;
+
+
+}
+
+#teamRoster>li:last-child {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+	background-size: 12rem;
+	background-repeat: no-repeat;
+}
+
+#teamRoster>li>img {
+	visibility: hidden;
+}
+
+#checkbox-grid{
+	list-style-type: none;
+}
+
+
+<!-- 
+
+    Have each team's primary quarterback display in bold.
+
+    Use CSS to give the table rows alternating background colors.
+
+    Solid background images can make foreground text hard to read; find a way to have each team's image display behind its roster, but reduced intensity. Do not edit the image itself.
+-->
